@@ -1,14 +1,14 @@
-import { useFormik } from 'formik';
-import { useState } from 'react';
 // material
 import { Container, Stack, Typography } from '@mui/material';
+import { useFormik } from 'formik';
+import { useState } from 'react';
 // components
 import Page from '../components/Page';
 import {
-  ProductSort,
-  ProductList,
   ProductCartWidget,
-  ProductFilterSidebar
+  ProductFilterSidebar,
+  ProductList,
+  ProductSort
 } from '../sections/@dashboard/products';
 //
 import PRODUCTS from '../_mocks_/products';
@@ -50,7 +50,7 @@ export default function EcommerceShop() {
     <Page title="Dashboard: Products | Minimal-UI">
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          Projects
         </Typography>
 
         <Stack
