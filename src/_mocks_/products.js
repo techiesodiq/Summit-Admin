@@ -16,20 +16,20 @@ const PRODUCT_NAME = [
   'Research Grant Award',
   'Prize Given Award',
   `Graduands' Startup Fund`,
-  'Kyrie 7 EP Sisterhood',
-  'Nike Air Zoom BB NXT',
-  'Nike Air Force 1 07 LX',
-  'Nike Air Force 1 Shadow SE',
-  'Nike Air Zoom Tempo NEXT%',
-  'Nike DBreak-Type',
-  'Nike Air Max Up',
-  'Nike Air Max 270 React ENG',
-  'NikeCourt Royale',
-  'Nike Air Zoom Pegasus 37 Premium',
-  'Nike Air Zoom SuperRep',
-  'NikeCourt Royale',
-  'Nike React Art3mis',
-  'Nike React Infinity Run Flyknit A.I.R. Chaz Bear'
+  'Summit Business School',
+  'Lecture Theatre',
+  'Halls of Residence',
+  'Open Distance Learning Centre',
+  'International Conference Centre',
+  'Publishing House'
+  // 'Nike Air Max Up',
+  // 'Nike Air Max 270 React ENG',
+  // 'NikeCourt Royale',
+  // 'Nike Air Zoom Pegasus 37 Premium',
+  // 'Nike Air Zoom SuperRep',
+  // 'NikeCourt Royale',
+  // 'Nike React Art3mis',
+  // 'Nike React Infinity Run Flyknit A.I.R. Chaz Bear'
 ];
 const PRODUCT_COLOR = [
   '#00AB55',
@@ -44,7 +44,7 @@ const PRODUCT_COLOR = [
 
 // ----------------------------------------------------------------------
 
-const products = [...Array(24)].map((_, index) => {
+const products = [...Array(16)].map((_, index) => {
   const setIndex = index + 1;
 
   return {
